@@ -2,7 +2,7 @@ import React from 'react';
 
 const Layout = ({content = () => null }) => (
   <div>
-    <div>
+    <div className="mainWrapper">
       {content()}
     </div>
   </div>
